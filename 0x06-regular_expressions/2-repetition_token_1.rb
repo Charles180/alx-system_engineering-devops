@@ -1,3 +1,2 @@
 #!/usr/bin/env ruby
-#Repetition Token #2
-puts ARGV[0].scan(/hbt{1,}n/)
+puts ARGV[0].scan(/hb{0,1}tn/)
