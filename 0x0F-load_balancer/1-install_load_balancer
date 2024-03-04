@@ -39,14 +39,14 @@ defaults
   timeout server 15s
   timeout http-request 10s
 
-frontend th3gr00t-tech-frontend
+frontend agwonder-tech-frontend
     bind *:80
-    default_backend th3gr00t-tech-backend
+    default_backend agwonder-tech-backend
 
-backend th3gr00t-tech-backend
+backend agwonder-tech-backend
     balance roundrobin
-    server 453-web-01 100.26.225.177:80 check
-    server 453-web-02 3.85.16.60:80 check
+    server 496335-web-01 100.26.225.177:80 check
+    server 496335-web-02 3.85.16.60:80 check
 "
 
 # shellcheck disable=SC2154
