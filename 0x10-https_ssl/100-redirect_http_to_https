@@ -47,5 +47,5 @@ frontend agwonder-tech-frontend-https
 
 backend agwonder-tech-backend
         balance roundrobin
-        server 151666-web-01 100.26.225.177:80 check
-        server 151666-web-02 3.85.16.60:80 check
+        server 496335-web-01 100.26.225.177:80 check
+        server 496335-web-02 3.85.16.60:80 check
